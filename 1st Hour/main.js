@@ -1,4 +1,4 @@
-document.querySelectorAll('.btn').forEach(function (item) {
+document.querySelectorAll('.btn').forEach((item) => {
         item.addEventListener('click', () => {
             alert('Manny is the best');
         });
