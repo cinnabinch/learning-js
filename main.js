@@ -36,4 +36,21 @@ console.log(friends[1]); //displays alex
 
 friends[2] = "clark"; //changes sydney to clark
 
+// function declare
 
+function hello() {
+    // logic
+    console.log('hi there');
+    
+}
+
+hello(); //calling the function (invoke)
+
+
+// function params and arguments
+
+function hi(fname) {
+    console.log("hi there " + fname);
+}
+
+hi("abby");
