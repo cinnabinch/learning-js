@@ -48,3 +48,23 @@ const website = "google";
 const url = `http://${website}.com`;
 
 console.log(url);
+
+//implicit type - checks if its a number
+
+let num123 = 123;
+
+let num456 = '123';
+
+console.log(num123 , num456);
+
+// changing copyright year
+
+let date = new Date();
+let year = date.getFullYear();
+
+//make copyright ID in html current-year
+
+let copyYear = document.getElementById('current-year');
+
+copyYear.innterHTML = year;
+
