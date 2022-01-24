@@ -58,7 +58,7 @@ console.log({
 let person = {fname2: 'abby'}; //object
 let person2 = person; 
 
-let person2.fname = 'dave'; // non-primitve data types change all references
+// let person.fname2 = 'dave'; // non-primitve data types change all references
 
 console.log(person.fname2);
 console.log(person2.fname2);

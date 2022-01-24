@@ -118,11 +118,11 @@ let people = [
         age: 12,
         position: 'friend',
     }
-    {
-        name: 'imani',
-        age: 68,
-        position: 'woman',
-    }
+    // {
+    //     name: 'imani',
+    //     age: 68,
+    //     position: 'woman',
+    // }
 ]
 
 function showPerson(person) {
