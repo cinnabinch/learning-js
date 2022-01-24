@@ -67,4 +67,3 @@ let year = date.getFullYear();
 let copyYear = document.getElementById('current-year');
 
 copyYear.innterHTML = year;
-
