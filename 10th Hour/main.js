@@ -138,6 +138,7 @@ const classValue = first.className;
 // to change the class:
 first.className = 'first blahhhhhh';
 
-second.classList.add('bla');
+second.classList.add('bla', 'butt');
+second.classList.remove('butt');
 
 
